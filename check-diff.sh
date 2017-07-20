@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 function realpath {
 	php -r 'echo realpath( $argv[1] );' "$1"
 }
