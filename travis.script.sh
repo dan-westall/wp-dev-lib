@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -e
-
 echo "## Checking files, scope $CHECK_SCOPE:"
 if [[ $CHECK_SCOPE != "all" ]]; then
 	cat "$TEMP_DIRECTORY/paths-scope"
