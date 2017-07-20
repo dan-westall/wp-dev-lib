@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -e
 shopt -s expand_aliases
 source "$DEV_LIB_PATH/check-diff.sh"
 
